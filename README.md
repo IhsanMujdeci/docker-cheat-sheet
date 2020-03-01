@@ -35,5 +35,5 @@ The `p` argument is the port, it maps from host port to docker port.
 
 `docker ps` -  list all running containers <br>
 `docker ps -a` -  list all containers <br>
-`docker system prune` - removes non running and dangling imaged "is one that is not tagged and is not referenced by any container."<br>
+`docker system prune` - removes non running and dangling imaged "images that are tagged and not referenced by any container."<br>
 `docker images` - show built non intermediate images
