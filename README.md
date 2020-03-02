@@ -26,11 +26,12 @@ CMD [ "node", "server.js" ]
 
 ### Build image from dockerfile
 `docker build -t <your username>/node-web-app .` <br>
-this generates an image
+this generates an image with the `-t` tag supplied
 
 ### Create running container from docker image
 `docker run -p 49160:8080 -d <your username>/node-web-app` <br>
-The `p` argument is the port, it maps from host port to docker port.
+The `-p` argument is the port, it maps from host port to docker port.<br>
+The `-d` argument stands for detached, runs the container in the background
 
 ## Basic commands
 
