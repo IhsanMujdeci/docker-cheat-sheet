@@ -51,4 +51,5 @@ The `-d` argument stands for detached, runs the container in the background
 ## Resources
 
 Filesystem perf for mac - https://docs.docker.com/docker-for-mac/osxfs-caching/ <br>
-Node Images - https://hub.docker.com/_/node/
+Node Images - https://hub.docker.com/_/node/ <br>
+Node best practices - https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md
