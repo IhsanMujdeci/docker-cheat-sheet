@@ -40,7 +40,7 @@ The `-d` argument stands for detached, runs the container in the background
 `docker ps` (Process Status) -  list all running containers
 - `-a ` list all containers 
 
-`docker system prune` - removes non running and dangling images (which are images that are tagged and not referenced by any container").<br>
+`docker system prune` - removes non running and dangling images (which are images that are tagged and not referenced by any container).<br>
 
 ## Concepts
 
