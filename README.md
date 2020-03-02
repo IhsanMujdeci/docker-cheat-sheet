@@ -45,7 +45,7 @@ The `-d` argument stands for detached, runs the container in the background
 
 ## Concepts
 
-**Image** - Built container, no state. <br>
+**Image** - Built file, used to run **Containers** <br>
 **Container** - running instance of an **Image**
 
 ## Resources
