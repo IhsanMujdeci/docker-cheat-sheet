@@ -3,6 +3,7 @@ https://docs.docker.com/engine/reference/commandline/docker/
 
 ## Basic Dockerfile for nodejs
 ```Dockerfile
+# Real world use something like node:alpine for dat space saving
 FROM node:10
 
 # Create app directory
